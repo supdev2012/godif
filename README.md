@@ -90,3 +90,4 @@ Go dependency injection for functions (and not only...)
 - Data injected into manually inited vars will be kept
 
 test1-master  
+test2-master: -TestFuncBasic  

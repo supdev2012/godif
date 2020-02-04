@@ -18,23 +18,6 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestFuncBasic(t *testing.T) {
-	Reset()
-	var injectedFunc func(x int, y int) int
-
-	Require(&injectedFunc)
-	Provide(&injectedFunc, f)
-
-	errs := ResolveAll()
-	if errs != nil {
-		t.Fatal(errs)
-	}
-	assert.Equal(t, 5, injectedFunc(3, 2))
-
-	Reset()
-	assert.Nil(t, injectedFunc)
-}
-
 func TestFuncErrorOnNoImplementation(t *testing.T) {
 	Reset()
 	var injectedFunc func(x int, y int) int
