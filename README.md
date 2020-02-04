@@ -92,3 +92,4 @@ Go dependency injection for functions (and not only...)
 test1-master  
 test2-master: -TestFuncBasic  
 test3-master: -TestUsageResolveAndStart, -TestUsageVerbose, -TestRunFailedStart  
+test4-master: -many tests
