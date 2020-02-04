@@ -88,3 +88,5 @@ Go dependency injection for functions (and not only...)
 - Provided vars will be nilled
 - Manually inited vars will be kept
 - Data injected into manually inited vars will be kept
+
+test1-master  
