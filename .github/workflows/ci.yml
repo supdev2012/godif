@@ -9,5 +9,4 @@ jobs:
     - uses: actions/checkout@v2
     - uses: vitkud/ci-action@master
       with:
-#        token: ${{ secrets.REPOREADING_TOKEN }}
 		codecov-token: ${{ secrets.CODECOV_TOKEN }}
