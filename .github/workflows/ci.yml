@@ -1,0 +1,13 @@
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-go@v1
+      with:
+        go-version: 1.13
+    - uses: actions/checkout@v2
+    - uses: vitkud/ci-action@master
+      with:
+#        token: ${{ secrets.REPOREADING_TOKEN }}
+		codecov-token: ${{ secrets.CODECOV_TOKEN }}
