@@ -94,3 +94,4 @@ test2-master: -TestFuncBasic
 test3-master: -TestUsageResolveAndStart, -TestUsageVerbose, -TestRunFailedStart  
 test4-master: -many tests  
 test5-develop: restore tests  
+test6-master: push to master  
