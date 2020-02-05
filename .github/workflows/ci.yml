@@ -11,7 +11,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
-        token: ${{ REPOWRITING_TOKEN }}
+        token: ${{ secrets.REPOWRITING_TOKEN }}
     - name: CI
       uses: vitkud/ci-action@master
       with:
