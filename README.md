@@ -101,4 +101,4 @@ test9-develop: merge
 test10-master: supdev2012  
 test11-master: supdev2012 #2  
 test12-master: supdev2012 #3  
-test13-supdev2012-master  
+test13-supdev2012-master: +action  
