@@ -1,4 +1,4 @@
-[![codecov](https://codecov.io/gh/untillpro/godif/branch/master/graph/badge.svg)](https://codecov.io/gh/untillpro/godif)
+[![codecov](https://codecov.io/gh/untillpro-test/godif/branch/develop/graph/badge.svg)](https://codecov.io/gh/untillpro-test/godif)
 
 # godif
 
@@ -102,3 +102,4 @@ test10-master: supdev2012
 test11-master: supdev2012 #2  
 test12-master: supdev2012 #3  
 test13-supdev2012-master: +action  
+test14-supdev2012-master: add badge  
