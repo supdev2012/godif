@@ -10,8 +10,6 @@ jobs:
         go-version: 1.13
     - name: Checkout
       uses: actions/checkout@v2
-      # with:
-      #   token: ${{ secrets.REPOWRITING_TOKEN }}
     - name: CI
       uses: vitkud/ci-action@master
       with:
